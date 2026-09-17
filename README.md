@@ -16,6 +16,9 @@ command-line interface and NixOS module are not yet stable.
 - Timed scene activation and restoration
 - Redemption refunding, retry, and crash recovery
 
+See the [setup guide](docs/setup.md) for account preparation, device discovery,
+Twitch authorization, and NixOS configuration.
+
 ## Development
 
 Run the Rust checks with:
