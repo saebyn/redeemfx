@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "message_id": "fixture-message-id",
+    "message_type": "notification",
+    "message_timestamp": "2026-01-01T00:00:00Z",
+    "subscription_type": "channel.channel_points_custom_reward_redemption.add",
+    "subscription_version": "1"
+  },
+  "payload": {
+    "subscription": { "type": "channel.channel_points_custom_reward_redemption.add" },
+    "event": {
+      "id": "redemption-fixture-id",
+      "broadcaster_user_id": "fixture-broadcaster-id",
+      "status": "unfulfilled",
+      "reward": { "id": "reward-fixture-id", "title": "Fixture Reward" }
+    }
+  }
+}

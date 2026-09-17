@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": [
+    {
+      "sku": "H1234",
+      "device": "AA:BB:CC:DD",
+      "deviceName": "Wall Lights",
+      "capabilities": [
+        {
+          "type": "devices.capabilities.on_off",
+          "instance": "powerSwitch",
+          "parameters": { "dataType": "ENUM" }
+        }
+      ]
+    }
+  ]
+}

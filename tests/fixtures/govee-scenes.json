@@ -1,0 +1,22 @@
+{
+  "requestId": "fixture-request",
+  "msg": "success",
+  "code": 200,
+  "payload": {
+    "sku": "H1234",
+    "device": "AA:BB:CC:DD",
+    "capabilities": [
+      {
+        "type": "devices.capabilities.dynamic_scene",
+        "instance": "lightScene",
+        "parameters": {
+          "dataType": "ENUM",
+          "options": [
+            { "name": "Sunrise", "value": { "paramId": 4280, "id": 3853 } },
+            { "name": "Rainbow", "value": { "paramId": 4281, "id": 3854 } }
+          ]
+        }
+      }
+    ]
+  }
+}
